@@ -25,7 +25,7 @@ export const initialState = {
   serialNumber: 0,
   style: style,
   selectedPhotos: false,
-  nodes: {}, // collection of member nodes
+  nodes: {} // collection of member nodes
 }
 
 const TILE_CACHE_SIZE = Config.TILE_CACHE_SIZE || 10000
